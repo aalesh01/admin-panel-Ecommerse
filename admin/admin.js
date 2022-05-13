@@ -15,7 +15,7 @@ document.getElementById('addP').addEventListener("submit", function () {
         document.getElementById('category').value,
         document.getElementById('image').value,
         document.getElementById('price').value,
-        document.getElementById("gender").value,
+        document.getElementById("gender").value
     )
     allProducts.push(prod);
     console.log(allProducts);
